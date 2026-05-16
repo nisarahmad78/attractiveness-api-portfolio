@@ -22,9 +22,9 @@ A production-ready **Deep Learning API** that predicts human facial attractivene
 
 ### 🎥 Demo Video
 
-> 📹 Watch the full demo video: [demo/demo_video.webm](demo/demo_video.webm)
+> 📹 Watch the full demo video: [demo/Potfolio_link_edit_0.mp4](demo/Potfolio_link_edit_0.mp4)
 
-https://github.com/user-attachments/assets/demo_video.webm
+https://github.com/user-attachments/assets/Potfolio_link_edit_0.mp4
 
 ---
 

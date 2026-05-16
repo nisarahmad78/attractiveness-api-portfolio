@@ -10,6 +10,24 @@ A production-ready **Deep Learning API** that predicts human facial attractivene
 
 ---
 
+## 📸 Demo Screenshots
+
+<p align="center">
+  <img src="demo/screenshot_1.png" alt="Attractiveness API - Prediction Results" width="80%"/>
+</p>
+
+<p align="center">
+  <img src="demo/screenshot_2.png" alt="Attractiveness API - Web Interface" width="80%"/>
+</p>
+
+### 🎥 Demo Video
+
+> 📹 Watch the full demo video: [demo/demo_video.webm](demo/demo_video.webm)
+
+https://github.com/user-attachments/assets/demo_video.webm
+
+---
+
 ## 🎯 Key Features
 
 | Feature | Description |
@@ -69,8 +87,8 @@ attractiveness-api/
 ### 1. Clone & Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/attractiveness-api.git
-cd attractiveness-api
+git clone https://github.com/nisarahmad78/attractiveness-api-portfolio.git
+cd attractiveness-api-portfolio
 
 # Create virtual environment
 python -m venv venv

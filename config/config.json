@@ -1,0 +1,37 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8000,
+    "reload": true
+  },
+  "data": {
+    "images_dir": "data/images",
+    "labels_csv": "data/labels.csv"
+  },
+  "models": {
+    "model_name": "mobilenet_v2",
+    "checkpoint_dir": "models/checkpoints/mobilenet_v2_checkpoint.pth",
+    "best_model_path": "models/mobilenet_v2_best.pth",
+
+    "face_detector": {
+      "model_path": "models/face_detection_yunet_2023mar.onnx",
+      "score_threshold": 0.8,
+      "nms_threshold": 0.3,
+      "top_k": 5000
+    },
+
+    "gender_model_path": "models/model_quantized.onnx"
+  },
+  "training": {
+    "batch_size": 32,
+    "epochs": 60,
+    "lr": 0.0002,
+    "image_size": 224,
+    "num_workers": 0,
+    "seed": 42
+  },
+  "debug": {
+    "show_samples": false,
+    "samples_n": 4
+  }
+}

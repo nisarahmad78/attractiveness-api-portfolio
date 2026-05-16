@@ -1,0 +1,41 @@
+# ===========================
+# ⚙️ Core FastAPI dependencies
+# ===========================
+fastapi==0.110.0
+uvicorn==0.29.0
+pydantic==2.9.2
+
+# ===========================
+# 📊 Data science / preprocessing
+# ===========================
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
+Pillow==10.3.0
+tqdm==4.66.4
+matplotlib==3.9.0
+PyYAML==6.0.2
+
+# ===========================
+# 🔥 Deep Learning (CPU build)
+# ===========================
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.2.2
+torchvision==0.17.2
+
+# ===========================
+# 🧠 ONNX Runtime (for inference)
+# ===========================
+onnxruntime==1.18.0
+
+# ===========================
+# 🖼️ Computer Vision
+# ===========================
+opencv-python==4.10.0.84
+opencv-contrib-python==4.10.0.84
+albumentations==1.4.7
+
+# ===========================
+# 📂 File handling
+# ===========================
+python-multipart==0.0.9

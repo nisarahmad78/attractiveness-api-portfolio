@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Image Attractiveness Predictor</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <link rel="icon" href="/static/favicon.ico" />
+</head>
+<body>
+  <div class="container">
+    <h2>✨ AI Image Attractiveness Predictor</h2>
+    <p class="subtitle">
+      Upload one or multiple photos to see their attractiveness scores (0–10)
+    </p>
+
+    <form id="uploadForm" class="upload-section">
+      <div class="bar">
+        <input 
+          type="file" 
+          id="fileInput" 
+          name="files" 
+          multiple 
+          accept=".jpg,.jpeg,.png,.bmp,.webp,image/*"
+        />
+        <button type="submit">🚀 Upload & Predict</button>
+      </div>
+    </form>
+
+    <div id="status" class="note">
+      💡 Tip: Upload 5–10 images at once to test performance.
+    </div>
+
+    <div id="results" class="grid"></div>
+  </div>
+
+  <footer>
+    <p>
+      Developed by <strong>Nisar Ahmad</strong> |
+      Powered by <span id="model-name">EfficientNet-B3</span>
+    </p>
+  </footer>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

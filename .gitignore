@@ -1,0 +1,54 @@
+# ================================
+# 🚫 Git Ignore - Attractiveness API
+# ================================
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Trained Models (too large for git)
+models/*.pth
+models/*.onnx
+models/*.h5
+models/*.pt
+models/checkpoints/
+
+# Data (private/sensitive)
+data/images/
+data/*.csv
+
+# Temp files
+temp_upload/
+app/temp_upload/
+app/outputs/
+
+# Environment variables
+.env
+.env.local
+
+# Evaluation results
+eval_results.csv
